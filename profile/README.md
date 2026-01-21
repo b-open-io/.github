@@ -18,13 +18,9 @@ Foundation libraries for building on Bitcoin SV.
 | [bitcoinschema](https://github.com/b-open-io/bitcoinschema) | Schema definitions for structured on-chain data |
 | [bitcoin-asset](https://github.com/b-open-io/bitcoin-asset) | Asset management utilities |
 | [satoshi-token](https://github.com/b-open-io/satoshi-token) | Utility library for converting between satoshi and token display formats |
-| [ts-sdk](https://github.com/b-open-io/ts-sdk) | TypeScript SDK for BSV blockchain operations |
-| [go-sdk](https://github.com/b-open-io/go-sdk) | Go SDK for BSV blockchain operations |
 | [ts-templates](https://github.com/b-open-io/ts-templates) | TypeScript script templates for common transaction patterns |
 | [go-templates](https://github.com/b-open-io/go-templates) | Go script templates for common transaction patterns |
-| [wallet-toolbox](https://github.com/b-open-io/wallet-toolbox) | Tools for building BRC-100 compliant wallets |
 | [1sat-wallet-toolbox](https://github.com/b-open-io/1sat-wallet-toolbox) | Wallet utilities for 1Sat Ordinals |
-| [spv-store](https://github.com/b-open-io/spv-store) | SPV store for Bun/Node environments with SQLite |
 | [run-sdk](https://github.com/b-open-io/run-sdk) | RUN JavaScript SDK |
 | [txex](https://github.com/b-open-io/txex) | Extract files from BSV transactions (B://, BCAT, Ordinals) |
 
