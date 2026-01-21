@@ -130,14 +130,39 @@ Supporting services and infrastructure components.
 
 ## Getting Started
 
-Most TypeScript packages are published to npm under the `@bsv` scope. Go packages can be imported directly from their GitHub paths.
+### Claude Code Plugins
+
+The fastest way to start building on Bitcoin is with our Claude Code plugins.
 
 ```bash
-# Install the BSV MCP server
-npm install -g @bsv/mcp
+# Browse all available plugins
+claude plugins add b-open-io/claude-plugins
 
-# Install bitcoin-auth
+# Core BSV blockchain operations
+claude plugins add b-open-io/bsv-skills
+
+# 1Sat Ordinals NFT operations
+claude plugins add b-open-io/1sat-skills
+```
+
+### CLIs
+
+```bash
+# BAP identity management
+npm install -g bap-cli
+
+# Theme token operations
+npm install -g theme-token-cli
+```
+
+### Libraries
+
+```bash
+# Bitcoin authentication
 npm install bitcoin-auth
+
+# 1Sat Ordinals SDK
+npm install 1sat-sdk
 ```
 
 ---
