@@ -16,6 +16,7 @@ Foundation libraries for building on Bitcoin SV.
 | [bitcoin-backup](https://github.com/b-open-io/bitcoin-backup) | Encrypted backup and recovery utilities for Bitcoin wallets |
 | [bitcoin-image](https://github.com/b-open-io/bitcoin-image) | Image handling and processing for on-chain data |
 | [bitcoinschema](https://github.com/b-open-io/bitcoinschema) | Schema definitions for structured on-chain data |
+| [bitcoin-asset](https://github.com/b-open-io/bitcoin-asset) | Asset management utilities |
 | [satoshi-token](https://github.com/b-open-io/satoshi-token) | Utility library for converting between satoshi and token display formats |
 | [ts-sdk](https://github.com/b-open-io/ts-sdk) | TypeScript SDK for BSV blockchain operations |
 | [go-sdk](https://github.com/b-open-io/go-sdk) | Go SDK for BSV blockchain operations |
@@ -24,6 +25,7 @@ Foundation libraries for building on Bitcoin SV.
 | [wallet-toolbox](https://github.com/b-open-io/wallet-toolbox) | Tools for building BRC-100 compliant wallets |
 | [1sat-wallet-toolbox](https://github.com/b-open-io/1sat-wallet-toolbox) | Wallet utilities for 1Sat Ordinals |
 | [spv-store](https://github.com/b-open-io/spv-store) | SPV store for Bun/Node environments with SQLite |
+| [run-sdk](https://github.com/b-open-io/run-sdk) | RUN JavaScript SDK |
 | [txex](https://github.com/b-open-io/txex) | Extract files from BSV transactions (B://, BCAT, Ordinals) |
 
 ---
@@ -34,15 +36,9 @@ Bitcoin-native authentication and identity management.
 
 | Repository | Description |
 |------------|-------------|
-| [sigma-auth](https://github.com/b-open-io/sigma-auth) | OAuth 2.0 server using bitcoin-auth for key ownership validation |
-| [sigma-auth-web](https://github.com/b-open-io/sigma-auth-web) | Web components for Sigma Auth integration |
-| [better-auth-plugin](https://github.com/b-open-io/better-auth-plugin) | Better Auth plugin for Bitcoin-based authentication |
-| [tokenpass-server](https://github.com/b-open-io/tokenpass-server) | Personal identity server - be your own OAuth provider |
-| [tokenpass-desktop](https://github.com/b-open-io/tokenpass-desktop) | Desktop application for TokenPass identity management |
-| [tokenpass.app](https://github.com/b-open-io/tokenpass.app) | TokenPass web application |
 | [bap-cli](https://github.com/b-open-io/bap-cli) | Command line utilities for BAP (Bitcoin Attestation Protocol) identity |
-| [sigmaidentity](https://github.com/b-open-io/sigmaidentity) | Identity service components |
 | [go-bitcoin-auth](https://github.com/b-open-io/go-bitcoin-auth) | Go implementation of bitcoin-auth |
+| [tokenpass-desktop](https://github.com/b-open-io/tokenpass-desktop) | Desktop application for TokenPass identity management |
 
 ---
 
@@ -52,19 +48,16 @@ NFTs, tokens, and the 1Sat Ordinals ecosystem.
 
 | Repository | Description |
 |------------|-------------|
-| [1sat-sdk](https://github.com/b-open-io/1sat-sdk) | TypeScript SDK for 1Sat Ordinals operations |
 | [1satordinals.com](https://github.com/b-open-io/1satordinals.com) | Official 1Sat Ordinals website |
 | [1sat-stack](https://github.com/b-open-io/1sat-stack) | Go-based infrastructure stack for 1Sat services |
 | [1sat-university](https://github.com/b-open-io/1sat-university) | Educational curriculum for BSV blockchain development |
 | [ordfs-server](https://github.com/b-open-io/ordfs-server) | TypeScript ORDFS server for serving on-chain files |
 | [go-ordfs-server](https://github.com/b-open-io/go-ordfs-server) | Go implementation of ORDFS server |
-| [mintflow](https://github.com/b-open-io/mintflow) | Minting workflows for ordinals |
 | [theme-token](https://github.com/b-open-io/theme-token) | On-chain theming tokens |
 | [theme-token-sdk](https://github.com/b-open-io/theme-token-sdk) | SDK for theme token integration |
 | [theme-token-cli](https://github.com/b-open-io/theme-token-cli) | CLI for theme token operations |
+| [theme-token-preview-harness](https://github.com/b-open-io/theme-token-preview-harness) | Preview harness for theme token content |
 | [bsv21-overlay](https://github.com/b-open-io/bsv21-overlay) | Overlay service for BSV-21 tokens |
-| [bsv21-overlay-1sat-sync](https://github.com/b-open-io/bsv21-overlay-1sat-sync) | Synchronization tool for BSV-21 and 1Sat integration |
-| [HyperSwag](https://github.com/b-open-io/HyperSwag) | Collectible apps platform |
 
 ---
 
@@ -81,8 +74,6 @@ Go-based overlay infrastructure for topic-specific transaction processing.
 | [bap-overlay](https://github.com/b-open-io/bap-overlay) | Overlay for BAP identity transactions |
 | [bsocial-overlay](https://github.com/b-open-io/bsocial-overlay) | Overlay for social transactions |
 | [opns-overlay](https://github.com/b-open-io/opns-overlay) | Overlay for OPNS (On-chain Naming) |
-| [a2b-overlay](https://github.com/b-open-io/a2b-overlay) | Overlay for A2B protocol |
-| [gib-overlay](https://github.com/b-open-io/gib-overlay) | Overlay for GIB protocol |
 
 ---
 
@@ -102,7 +93,6 @@ Tools for AI-assisted development and enhanced developer experience.
 | [statusline](https://github.com/b-open-io/statusline) | Customizable statusline for Claude Code CLI |
 | [prompts](https://github.com/b-open-io/prompts) | Curated prompts for generating code using open protocols |
 | [vscode-bitcoin](https://github.com/b-open-io/vscode-bitcoin) | VSCode extension for Bitcoin development |
-| [bopen-ai](https://github.com/b-open-io/bopen-ai) | AI tools and integrations |
 
 ---
 
@@ -115,28 +105,20 @@ Supporting services and infrastructure components.
 | [block-headers-service](https://github.com/b-open-io/block-headers-service) | Headers-only peer with Merkle root validation API |
 | [bmap-api](https://github.com/b-open-io/bmap-api) | BMAP Planaria for B + MAP based applications |
 | [go-junglebus](https://github.com/b-open-io/go-junglebus) | Go client for JungleBus |
+| [go-bitcoin-image](https://github.com/b-open-io/go-bitcoin-image) | Go implementation of bitcoin-image |
 | [pay-purse](https://github.com/b-open-io/pay-purse) | Payment and purse management |
-| [go-faucet-api](https://github.com/b-open-io/go-faucet-api) | Testnet faucet API |
-| [gorillanode](https://github.com/b-open-io/gorillanode) | Node infrastructure |
 | [homebrew-tap](https://github.com/b-open-io/homebrew-tap) | Homebrew tap for b-open-io packages |
-| [jamify-hls](https://github.com/b-open-io/jamify-hls) | HTTP Live Streaming server |
+| [tts-api](https://github.com/b-open-io/tts-api) | Text-to-speech API |
+| [agent-master-engine](https://github.com/b-open-io/agent-master-engine) | Agent orchestration engine |
 
 ---
 
-## Websites and Applications
-
-User-facing products and web applications.
+## Applications
 
 | Repository | Description |
 |------------|-------------|
-| [bopen.io](https://github.com/b-open-io/bopen.io) | bOpen main website |
-| [gorillapool.com](https://github.com/b-open-io/gorillapool.com) | Gorilla Pool mining pool website |
-| [openprotocollabs.com](https://github.com/b-open-io/openprotocollabs.com) | Open Protocol Labs website |
-| [bigblocks.dev](https://github.com/b-open-io/bigblocks.dev) | BigBlocks component library site |
 | [bitpic.net](https://github.com/b-open-io/bitpic.net) | BitPic avatar service |
-| [jamify](https://github.com/b-open-io/jamify) | Music platform on Bitcoin |
 | [scribe](https://github.com/b-open-io/scribe) | Timeline-based work evidence aggregator |
-| [scribe-desktop](https://github.com/b-open-io/scribe-desktop) | Desktop application for Scribe |
 | [bottlebird](https://github.com/b-open-io/bottlebird) | Independent web browser with blockchain integration |
 | [bitbench](https://github.com/b-open-io/bitbench) | Development and testing workbench |
 
@@ -146,14 +128,13 @@ User-facing products and web applications.
 
 | Repository | Description |
 |------------|-------------|
-| [bigblocks](https://github.com/b-open-io/bigblocks) | React component library for Bitcoin apps |
 | [bigblocks-registry](https://github.com/b-open-io/bigblocks-registry) | Special components registry for BigBlocks |
 
 ---
 
 ## Getting Started
 
-Most TypeScript packages are published to npm under the `@bsv` or `@b-open-io` scope. Go packages can be imported directly from their GitHub paths.
+Most TypeScript packages are published to npm under the `@bsv` scope. Go packages can be imported directly from their GitHub paths.
 
 ```bash
 # Install the BSV MCP server
@@ -161,9 +142,6 @@ npm install -g @bsv/mcp
 
 # Install bitcoin-auth
 npm install bitcoin-auth
-
-# Install 1Sat SDK
-npm install @1sat/sdk
 ```
 
 ---
