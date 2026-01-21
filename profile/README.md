@@ -21,7 +21,6 @@ Foundation libraries for building on Bitcoin SV.
 | [ts-templates](https://github.com/b-open-io/ts-templates) | TypeScript script templates for common transaction patterns |
 | [go-templates](https://github.com/b-open-io/go-templates) | Go script templates for common transaction patterns |
 | [1sat-wallet-toolbox](https://github.com/b-open-io/1sat-wallet-toolbox) | Wallet utilities for 1Sat Ordinals |
-| [run-sdk](https://github.com/b-open-io/run-sdk) | RUN JavaScript SDK |
 | [txex](https://github.com/b-open-io/txex) | Extract files from BSV transactions (B://, BCAT, Ordinals) |
 
 ---
